@@ -86,10 +86,9 @@ The files other than .py will be excluded which makes the annotation of json fil
 **Process**: The process followed can be explained as follows.
 
 
-1)If .py files are present, output directory is created. Other extension files such as .js and html,.txt will are identified and will skipped automatically with the enhancements
+1)If .py files are present, output directory is created. Other extension files such as .js and html,.txt will are identified and will skipped automatically with the enhancements.
 
-
-2) When the sample repository path is passed through the enhanced function in ‘cli.py’ checks for the file with .py extension, if not present the project used to throw an error which has been handled to provide a message as “no .py file was found in the repository ”.
+2)When the sample repository path is passed through the enhanced function in ‘cli.py’ checks for the file with .py extension, if not present the project used to throw an error which has been handled to provide a message as “no .py file was found in the repository ”.
 
 
 
